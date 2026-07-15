@@ -1,0 +1,9 @@
+{
+  "hosting": {
+    "target": "i40breakdown",
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "cleanUrls": false,
+    "trailingSlash": false
+  }
+}

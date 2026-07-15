@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "default": "aiansweragency-main"
+  },
+  "targets": {
+    "aiansweragency-main": {
+      "hosting": {
+        "i40breakdown": ["i40breakdown"]
+      }
+    }
+  }
+}
