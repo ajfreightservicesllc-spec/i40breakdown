@@ -215,8 +215,42 @@ container):
 
 ## This repo
 
-*(Project-specific notes go here — what this project is, how to build/run it,
-anything Claude should know before touching it. Ask me if it's not written yet.)*
+**THIS REPO IS: i40breakdown repo (i40breakdown.com — I-40 truck repair shop
+directory. NOT Big Rig Rescue — that's a separate repo).**
+
+*Confirmed from `git remote -v` (`ajfreightservicesllc-spec/i40breakdown`) and
+the site content itself — `robots.txt` / `sitemap.xml` point at
+`www.i40breakdown.com`. This repo contains only i40breakdown; no
+bigrigrescue.co content is in it.*
+
+- **What it is:** static directory of emergency truck/diesel/RV repair shops
+  along I-40 (CA → NC). No monetization — no ads, no affiliate links, pure
+  directory + claim-your-listing lead capture. Shop data sourced via the
+  RigRescue project (Outscraper/Google Maps scrape).
+- **Built state:** fully built — `i40-deploy/public/` has ~2,110 files
+  (~2,019 shop pages, 79 city pages, 6 state pages, `index.html`,
+  `claim.html`). GA4 tag `G-M0PYD8479W` wired in. **Likely live** — the domain
+  is baked into `sitemap.xml`/`robots.txt` — but this cloud container has no
+  Firebase credentials, so that's inferred, not verified. Confirm with Rufus.
+- **Deploy:** Firebase Hosting, site `i40breakdown`, project
+  `aiansweragency-main` (`i40-deploy/.firebaserc` + `firebase.json`). Deployed
+  manually from the desktop. **No `.github/` workflow exists in this repo** —
+  cloud sessions cannot deploy this site at all right now (no Actions, no
+  local Firebase creds).
+- **OPEN ITEM — 1,012 shop pages 404 live:** a filename/slug mismatch bug
+  causes ~1,012 shop detail pages to 404 on the live site. `i40-rebuild-prep/`
+  has already recovered 997 of those records from the live state pages and
+  generated all 1,012 replacement pages into `i40-rebuild-prep/dry-run/`,
+  ready to merge into `i40-deploy/public/` — **not yet deployed, waiting on
+  Rufus's go**. See `i40-rebuild-prep/README.md` and `TEMPLATE-NOTES.md`.
+- **OPEN ITEM — claim form doesn't submit:** `i40-deploy/public/claim.html`
+  has `<form data-endpoint="">` — the JS only POSTs if an endpoint is set
+  (`claim.html:114-118`), so submitting the form currently does nothing. Not
+  wired to a backend.
+
+### On what is real in this project
+
+Verify against disk and git, never assume. Say "I'm inferring" if unsure.
 
 ---
 
