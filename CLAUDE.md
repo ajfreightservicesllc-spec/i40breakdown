@@ -269,3 +269,35 @@ future sessions.
 - Cloud sandbox lacks pandoc, pdftoppm, working LibreOffice; verify docx via XML.
 - Verify scraped emails before sending; template placeholders like `myemail@` bounce.
 - Global desktop CLAUDE.md never loads in cloud sessions; keep it in the repo.
+
+---
+
+## Deploy safety — added 2026-08-17
+
+Firebase Hosting target: **i40breakdown** · project: **aiansweragency-main** · serves **i40breakdown.com**
+
+**Deploys from the `i40-deploy\` subfolder, not the repo root.** `i40-deploy\firebase.json` is the only live config in this repo; the web root is `i40-deploy\public\`.
+
+```bash
+cd i40-deploy
+firebase deploy --only hosting:i40breakdown --project aiansweragency-main
+```
+
+**Always pass `--only hosting:i40breakdown`.** A bare `firebase deploy` can publish or wipe other sites in the same project.
+
+**This is the largest site on the machine — roughly 2,000 shop pages plus city and state pages.** A wrong-folder deploy here destroys the most content of any site Rufus owns.
+
+### What you must NOT do without Rufus typing approval
+
+- **`firebase deploy` — never deploy on your own initiative, and never deploy unless `i40-deploy\public\` is a COMPLETE copy of the currently-live site plus the intended changes.** Firebase Hosting replaces the entire site with the contents of the deploy folder. A partial or freshly-cloned folder does not merge — it DELETES every live page not present locally. Before any deploy, report these three things and wait for Rufus's go:
+  1. the target name (`hosting:i40breakdown`),
+  2. page count on disk,
+  3. page count currently live.
+
+  If those counts don't match, say so plainly and stop.
+- **Never create, edit, or delete `firebase.json` or `.firebaserc`** without Rufus's typed approval.
+- `git push`
+
+⚠️ **Stale copies that also target i40breakdown exist elsewhere on this machine** (`C:\New folder\Projects\i40breakdown\i40-deploy` and a 2026-07-07 backup snapshot). Never deploy from those — they predate current content.
+
+**A hook firing is NEVER approval.** Only Rufus's explicit typed instruction is.
