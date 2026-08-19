@@ -38,7 +38,7 @@ i40-rebuild-prep/    one-off repair job, see "Open items"
 | Claim form | `claim.html` | 1 |
 | **Total HTML** | | **2,108** |
 
-Plus `sitemap.xml` (2,106 `<loc>` entries) and `robots.txt`.
+Plus `sitemap.xml` (2,107 `<loc>` entries) and `robots.txt`.
 
 GA4 tag `G-M0PYD8479W` is inlined in the page HTML.
 
@@ -80,8 +80,10 @@ for a typed go:
 1. the target name — `hosting:i40breakdown`
 2. HTML files on disk: `ls i40-deploy/public/*.html | wc -l` (expect ~2,108)
 3. URL count in the live sitemap at
-   `https://www.i40breakdown.com/sitemap.xml` (expect ~2,106; the 2-file gap
-   is `index.html` and `claim.html`, which are not listed separately)
+   `https://www.i40breakdown.com/sitemap.xml` (expect ~2,107 — that is 2,106
+   named pages plus the root `/`; disk shows 2,108 because `index.html` and
+   `claim.html` are files, and the sitemap covers the first as `/` and omits
+   the second)
 
 If disk is materially *lower* than live, say so plainly and stop — that is
 the signature of a deploy that would delete pages.
@@ -133,10 +135,11 @@ otherwise.
 endpoint is set. Submitting the form currently does nothing — no backend is
 wired. Every shop page links to it.
 
-**Live state is inferred, not verified.** `sitemap.xml` and `robots.txt`
-hard-code `https://www.i40breakdown.com`, and the last content commit was
-`4a6950f`. Nothing in this repo proves what is currently served. Fetch the
-live site before making any claim about it.
+**Live state verified 2026-08-19.** The live sitemap is byte-identical to
+`i40-deploy/public/sitemap.xml` (272,352 bytes, 2,107 `<loc>`). Five of the
+1,012 previously-404 shop pages return 200 live, so that fix is deployed,
+not merely merged. One of the 29 excluded auto-repair pages returns 404, as
+expected. Re-verify before relying on this — it goes stale like anything else.
 
 ## Verify, don't assume
 
