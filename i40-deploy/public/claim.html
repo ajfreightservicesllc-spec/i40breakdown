@@ -46,7 +46,7 @@
 
   <div class="err" id="err"></div>
 
-  <form id="claimForm" data-endpoint="" novalidate>
+  <form id="claimForm" data-endpoint="https://us-central1-aiansweragency-main.cloudfunctions.net/i40claim" novalidate>
     <div>
       <label for="business">Business / shop name <span class="req">*</span></label>
       <input id="business" name="business" type="text" required placeholder="Your shop's name">
@@ -115,7 +115,7 @@
 
     if(endpoint){
       btn.textContent='Sending...';
-      fetch(endpoint,{method:'POST',body:data,headers:{'Accept':'application/json'}})
+      fetch(endpoint,{method:'POST',body:new URLSearchParams(data),headers:{'Accept':'application/json'}})
         .then(function(r){ if(r.ok){showOk();} else {btn.textContent='Submit claim';showErr('Something went wrong sending your claim. Please email us directly at ajfreightservicesllc@gmail.com.');} })
         .catch(function(){ btn.textContent='Submit claim';fallbackMail(data); });
       return;
