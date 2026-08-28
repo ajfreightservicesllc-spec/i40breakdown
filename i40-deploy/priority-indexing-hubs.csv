@@ -1,0 +1,80 @@
+rank,type,tier,url,city,state,shop_count
+1,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-raleigh.html,Raleigh,NC,113
+2,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-memphis.html,Memphis,TN,91
+3,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-winston-salem.html,Winston-Salem,NC,75
+4,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-knoxville.html,Knoxville,TN,74
+5,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-greensboro.html,Greensboro,NC,72
+6,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-wilmington.html,Wilmington,NC,71
+7,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-nashville.html,Nashville,TN,61
+8,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-asheville.html,Asheville,NC,48
+9,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-durham.html,Durham,NC,43
+10,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-jackson.html,Jackson,TN,38
+11,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-statesville.html,Statesville,NC,32
+12,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-cookeville.html,Cookeville,TN,18
+13,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-garner.html,Garner,NC,15
+14,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-candler.html,Candler,NC,8
+15,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-high-point.html,High Point,NC,8
+16,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-kernersville.html,Kernersville,NC,8
+17,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-lenoir-city.html,Lenoir City,TN,7
+18,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-colfax.html,Colfax,NC,7
+19,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-hendersonville.html,Hendersonville,NC,7
+20,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-lexington.html,Lexington,NC,7
+21,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-antioch.html,Antioch,TN,5
+22,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-burlington.html,Burlington,NC,5
+23,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-leland.html,Leland,NC,5
+24,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-mebane.html,Mebane,NC,5
+25,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-franklin.html,Franklin,TN,4
+26,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-la-vergne.html,La Vergne,TN,4
+27,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-lebanon.html,Lebanon,TN,4
+28,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-lexington.html,Lexington,TN,4
+29,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-murfreesboro.html,Murfreesboro,TN,4
+30,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-selma.html,Selma,NC,4
+31,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-thomasville.html,Thomasville,NC,4
+32,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-dandridge.html,Dandridge,TN,3
+33,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-henderson.html,Henderson,TN,3
+34,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-hendersonville.html,Hendersonville,TN,3
+35,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-kodak.html,Kodak,TN,3
+36,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-madison.html,Madison,TN,3
+37,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-mt-juliet.html,Mt. Juliet,TN,3
+38,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-portland.html,Portland,TN,3
+39,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-smyrna.html,Smyrna,TN,3
+40,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-tn-sparta.html,Sparta,TN,3
+41,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-charlotte.html,Charlotte,NC,3
+42,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-mocksville.html,Mocksville,NC,3
+43,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-rocky-point.html,Rocky Point,NC,3
+44,city_hub,tier1_tn_nc,https://www.i40breakdown.com/c-nc-youngsville.html,Youngsville,NC,3
+45,city_hub,tier2_named,https://www.i40breakdown.com/c-ok-oklahoma-city.html,Oklahoma City,OK,132
+46,city_hub,tier2_named,https://www.i40breakdown.com/c-tx-amarillo.html,Amarillo,TX,96
+47,city_hub,tier2_named,https://www.i40breakdown.com/c-nm-albuquerque.html,Albuquerque,NM,100
+48,city_hub,tier2_named,https://www.i40breakdown.com/c-az-flagstaff.html,Flagstaff,AZ,45
+49,city_hub,tier3_rest,https://www.i40breakdown.com/c-ar-russellville.html,Russellville,AR,56
+50,city_hub,tier3_rest,https://www.i40breakdown.com/c-ar-north-little-rock.html,North Little Rock,AR,47
+51,city_hub,tier3_rest,https://www.i40breakdown.com/c-az-kingman.html,Kingman,AZ,41
+52,city_hub,tier3_rest,https://www.i40breakdown.com/c-nm-gallup.html,Gallup,NM,39
+53,city_hub,tier3_rest,https://www.i40breakdown.com/c-ar-little-rock.html,Little Rock,AR,33
+54,city_hub,tier3_rest,https://www.i40breakdown.com/c-ar-conway.html,Conway,AR,26
+55,city_hub,tier3_rest,https://www.i40breakdown.com/c-ar-west-memphis.html,West Memphis,AR,24
+56,city_hub,tier3_rest,https://www.i40breakdown.com/c-ca-barstow.html,Barstow,CA,21
+57,city_hub,tier3_rest,https://www.i40breakdown.com/c-ok-elk-city.html,Elk City,OK,19
+58,city_hub,tier3_rest,https://www.i40breakdown.com/c-az-holbrook.html,Holbrook,AZ,18
+59,city_hub,tier3_rest,https://www.i40breakdown.com/c-ok-sallisaw.html,Sallisaw,OK,16
+60,city_hub,tier3_rest,https://www.i40breakdown.com/c-ok-henryetta.html,Henryetta,OK,15
+61,city_hub,tier3_rest,https://www.i40breakdown.com/c-nm-tucumcari.html,Tucumcari,NM,14
+62,city_hub,tier3_rest,https://www.i40breakdown.com/c-ar-fort-smith.html,Fort Smith,AR,13
+63,city_hub,tier3_rest,https://www.i40breakdown.com/c-ok-edmond.html,Edmond,OK,10
+64,city_hub,tier3_rest,https://www.i40breakdown.com/c-ar-mabelvale.html,Mabelvale,AR,7
+65,city_hub,tier3_rest,https://www.i40breakdown.com/c-ar-marion.html,Marion,AR,7
+66,city_hub,tier3_rest,https://www.i40breakdown.com/c-nm-santa-rosa.html,Santa Rosa,NM,6
+67,city_hub,tier3_rest,https://www.i40breakdown.com/c-ar-van-buren.html,Van Buren,AR,5
+68,city_hub,tier3_rest,https://www.i40breakdown.com/c-ok-tulsa.html,Tulsa,OK,5
+69,city_hub,tier3_rest,https://www.i40breakdown.com/c-ar-atkins.html,Atkins,AR,4
+70,city_hub,tier3_rest,https://www.i40breakdown.com/c-nm-moriarty.html,Moriarty,NM,4
+71,city_hub,tier3_rest,https://www.i40breakdown.com/c-ok-yukon.html,Yukon,OK,4
+72,city_hub,tier3_rest,https://www.i40breakdown.com/c-tx-canyon.html,Canyon,TX,4
+73,city_hub,tier3_rest,https://www.i40breakdown.com/c-ar-cabot.html,Cabot,AR,3
+74,city_hub,tier3_rest,https://www.i40breakdown.com/c-az-bellemont.html,Bellemont,AZ,3
+75,city_hub,tier3_rest,https://www.i40breakdown.com/c-az-camp-verde.html,Camp Verde,AZ,3
+76,city_hub,tier3_rest,https://www.i40breakdown.com/c-az-williams.html,Williams,AZ,3
+77,city_hub,tier3_rest,https://www.i40breakdown.com/c-ok-mcalester.html,McAlester,OK,3
+78,city_hub,tier3_rest,https://www.i40breakdown.com/c-ok-moore.html,Moore,OK,3
+79,city_hub,tier3_rest,https://www.i40breakdown.com/c-ok-norman.html,Norman,OK,3
